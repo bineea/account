@@ -1,6 +1,6 @@
 package my.blog.account.common.tools;
 
-import my.blog.content.common.pub.MyManagerException;
+import my.blog.account.common.pub.MyManagerException;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 

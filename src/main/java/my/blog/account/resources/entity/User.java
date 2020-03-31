@@ -39,6 +39,7 @@ public class User extends StringUUIDEntity {
 	@Setter
 	private String loginName;//账号（字母+数字）唯一
 
+	@JsonIgnore
 	@Getter(onMethod_={@Column(name = "pass_wd")})
 	@Setter
 	private String passwd;

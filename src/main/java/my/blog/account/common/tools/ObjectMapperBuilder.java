@@ -10,7 +10,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalTimeDeserializer;
-import my.blog.content.common.pub.CommonAbstract;
+import my.blog.account.common.pub.CommonAbstract;
 import org.springframework.util.StringUtils;
 
 import java.text.SimpleDateFormat;
