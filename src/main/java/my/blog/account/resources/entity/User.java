@@ -3,8 +3,8 @@ package my.blog.account.resources.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
-import my.blog.account.common.entity.StringUUIDEntity;
 import my.blog.account.resources.entity.dict.Male;
+import my.blog.comm.base.entity.StringUUIDEntity;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;

@@ -2,8 +2,7 @@ package my.blog.account.resources.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import my.blog.account.common.entity.StringUUIDEntity;
-import org.springframework.util.StringUtils;
+import my.blog.comm.base.entity.StringUUIDEntity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
