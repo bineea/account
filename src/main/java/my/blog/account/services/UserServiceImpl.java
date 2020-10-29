@@ -15,7 +15,6 @@ public class UserServiceImpl extends  AbstractService implements  UserService{
     @Autowired
     private UserRepo userRepo;
 
-    @HystrixCommand
     @Override
     public User findById(String userId) {
         return userRepo.findById(userId).orElse(null);
